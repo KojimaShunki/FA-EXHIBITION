@@ -78,12 +78,12 @@ $(function(){
     if ($(window).scrollTop() > gallery_position) {
 
       if ($(window).scrollTop() < access_position) {
-        sideBar.fadeIn(500);
+        sideBar.slideDown();
       } else {
-        sideBar.fadeOut(500);
+        sideBar.slideUp();
       }
     } else {
-      sideBar.fadeOut(500);
+      sideBar.slideUp();
     }
 
     
